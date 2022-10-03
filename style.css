@@ -1,28 +1,92 @@
-/* .carousel-inner {
+.slogan {
   margin: auto;
-  width: 50%;
-  padding: 10px;
   text-align: center;
-} */
+  padding-top: 2.5%;
+}
 
-.three_column_container {
-  align-items: center;
+/* Column 2 and Column 3 overrides BootStrap styling */
+.columncards2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 2.5%;
+  margin: auto;
+}
+.card1,
+.card2 {
+  padding: 2.5%;
+  background-color: #3c3c3c51;
+  border-radius: 1.5em;
+  margin: 2.5%;
+  font-size: 70%;
+}
+a.btn.btn-primary {
+  background-color: black;
+  border-color: white;
+}
+a.btn.btn-primary:hover {
+  background-color: white;
+  border-color: black;
+  color: black;
+}
+.columncards3 {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
   margin: auto;
 }
 
-/* Shopping Cart Styling */
-.payment-info {
-  background: blue;
-  padding: 10px;
-  border-radius: 6px;
-  color: #fff;
-  font-weight: bold;
+/* Shopping Items */
+.shoppingItemsClothes {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  border-radius: 0.5em;
+  background-color: #3c3c3c51;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+
+.ecommerce {
+  width: 95%;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+  padding: 0.75%;
+  background-color: #3c3c3c51;
+}
+
+.tshirt,
+.shorts,
+.backpack {
+  padding: 3%;
+  background-color: #3c3c3c51;
+}
+
+/* Logo and External Sites */
+.logoAndExternals {
+  background-color: 3c3c3c51;
+  display: grid;
+  grid-template-columns: 1fr;
+  padding: 5%;
+}
+.youtubeBanner {
+  height: auto;
+  width: 10%;
+}
+
+.youtubeBanner {
+  width: 100%;
 }
 
 .product-details {
   padding: 10px;
 }
 
+.instagramPhotos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 2.5%;
+}
+.card {
+  width: 30vw;
+}
 body {
   background: #eee;
 }
