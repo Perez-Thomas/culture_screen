@@ -61,7 +61,7 @@ a.btn.btn-primary:hover {
 
 /* Logo and External Sites */
 .logoAndExternals {
-  background-color: 3c3c3c51;
+  background-color: #3c3c3c51;
   display: grid;
   grid-template-columns: 1fr;
   padding: 5%;
@@ -80,12 +80,14 @@ a.btn.btn-primary:hover {
 }
 
 .instagramPhotos {
+  background-color: #3c3c3c51;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
-  margin-left: 2.5%;
+  padding: 2.5%;
 }
 .card {
   width: 30vw;
+  padding: 2.5%;
 }
 body {
   background: #eee;
