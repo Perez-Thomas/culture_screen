@@ -15,7 +15,7 @@
 .card2 {
   padding: 2.5%;
   background-color: #3c3c3c51;
-  border-radius: 1.5em;
+  border-radius: 0.5em;
   margin: 2.5%;
   font-size: 70%;
 }
@@ -79,6 +79,13 @@ a.btn.btn-primary:hover {
   padding: 10px;
 }
 
+.instagram {
+  background-color: #3c3c3c51;
+  margin: auto;
+  margin-top: 5%;
+  text-align: center;
+  padding-top: 2.5%;
+}
 .instagramPhotos {
   background-color: #3c3c3c51;
   display: grid;
@@ -128,7 +135,7 @@ label.radio span {
   border: 2px solid #ada9a9;
   display: inline-block;
   color: #8f37aa;
-  border-radius: 3px;
+  border-radius: 0.5em;
   text-transform: uppercase;
   font-size: 11px;
   font-weight: 300;
