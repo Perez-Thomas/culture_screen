@@ -86,12 +86,22 @@ a.btn.btn-primary:hover {
   text-align: center;
   padding-top: 2.5%;
 }
+
 .instagramPhotos {
   background-color: #3c3c3c51;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   padding: 2.5%;
 }
+
+/* Centers Main Instagram Button */
+#instagram-button {
+  display: flex;
+  justify-content: center;
+  background-color: #3c3c3c51;
+  padding-bottom: 2.5%;
+}
+
 .card {
   width: 30vw;
   padding: 2.5%;
